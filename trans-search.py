@@ -27,7 +27,7 @@ from typing import Dict, Optional, Iterable
 # ---------------------------------------------------------------------
 # 0) Feature name (untranslated) — can be overridden via --feature-name
 # ---------------------------------------------------------------------
-FEATURE_NAME = "My Documents"     # default; override with --feature-name
+FEATURE_NAME = "New search"     # default; override with --feature-name
 FEATURE_TOKEN = "{FEATURE}"       # token used in DICT KEYS and VALUES
 
 # ---------------------------------------------------------------------
@@ -43,10 +43,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "es": {
         "Feedback": "Comentario",
         "We'd Love Your Feedback!": "¡Nos encantaría recibir tus comentarios!",
-        "{FEATURE} is easy to use.{required/}": "Mis documentos es fácil de usar. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Buscar es fácil de usar. {required/}",
         "Strongly Disagree": "Totalmente en desacuerdo",
         "Strongly Agree": "Totalmente de acuerdo",
-        "{FEATURE} meets my needs.{required/}": "Mis documentos satisface mis necesidades. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Buscar satisface mis necesidades. {required/}",
         "Tell us why you gave these ratings.": "Cuéntanos por qué elegiste estas calificaciones.",
         "Remind Me Later": "Recuérdamelo más tarde",
         "Submit": "Enviar",
@@ -58,10 +58,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "fr-FR": {
         "Feedback": "Retour",
         "We'd Love Your Feedback!": "Nous aimerions connaître votre avis !",
-        "{FEATURE} is easy to use.{required/}": "Mes documents est facile à utiliser. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Recherche est facile à utiliser. {required/}",
         "Strongly Disagree": "Pas du tout d'accord",
         "Strongly Agree": "Tout à fait d'accord",
-        "{FEATURE} meets my needs.{required/}": "Mes documents répond à mes besoins. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Recherche répond à mes besoins. {required/}",
         "Tell us why you gave these ratings.": "Dites-nous ce qui a motivé votre évaluation.",
         "Remind Me Later": "Me le rappeler plus tard",
         "Submit": "Soumettre",
@@ -73,10 +73,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "zh-TW": {
         "Feedback": "回饋",
         "We'd Love Your Feedback!": "我們很想聽聽你的意見回饋！",
-        "{FEATURE} is easy to use.{required/}": "我的文件很方便使用。 {required/}",
+        "{FEATURE} is easy to use. {required/}": "搜尋文件很方便使用。 {required/}",
         "Strongly Disagree": "強烈不同意",
         "Strongly Agree": "非常同意",
-        "{FEATURE} meets my needs.{required/}": "我的文件滿足了我的需求。 {required/}",
+        "{FEATURE} meets my needs. {required/}": "搜尋文件滿足了我的需求。 {required/}",
         "Tell us why you gave these ratings.": "告訴我們你為什麼給這些評分。",
         "Remind Me Later": "稍後提醒我",
         "Submit": "提交",
@@ -88,10 +88,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "zh-CN": {
         "Feedback": "反馈",
         "We'd Love Your Feedback!": "我们很想听听你的反馈！",
-        "{FEATURE} is easy to use.{required/}": "我的文档简单易用。 {required/}",
+        "{FEATURE} is easy to use. {required/}": "搜索文档简单易用。 {required/}",
         "Strongly Disagree": "强烈不同意",
         "Strongly Agree": "非常同意",
-        "{FEATURE} meets my needs.{required/}": "我的文档满足了我的需求。 {required/}",
+        "{FEATURE} meets my needs. {required/}": "搜索文档满足了我的需求。 {required/}",
         "Tell us why you gave these ratings.": "请告知给出这些评分的原因。",
         "Remind Me Later": "稍后提醒我",
         "Submit": "提交",
@@ -103,10 +103,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "ko": {
         "Feedback": "피드백",
         "We'd Love Your Feedback!": "피드백을 공유해 주시면 감사하겠습니다!",
-        "{FEATURE} is easy to use.{required/}": "내 문서는 사용이 쉽습니다. {required/}",
+        "{FEATURE} is easy to use. {required/}": "검색는 사용이 쉽습니다. {required/}",
         "Strongly Disagree": "매우 동의 안 함",
         "Strongly Agree": "매우 동의함",
-        "{FEATURE} meets my needs.{required/}": "내 문서는 내 필요를 충족합니다. {required/}",
+        "{FEATURE} meets my needs. {required/}": "검색는 내 필요를 충족합니다. {required/}",
         "Tell us why you gave these ratings.": "이 평점을 부여한 이유를 알려주십시오.",
         "Remind Me Later": "나중에 다시 알림",
         "Submit": "제출",
@@ -118,10 +118,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "ru": {
         "Feedback": "Обратная связь",
         "We'd Love Your Feedback!": "Мы с удовольствием выслушаем ваше мнение!",
-        "{FEATURE} is easy to use.{required/}": "Мои документы проста в использовании. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Поиск проста в использовании. {required/}",
         "Strongly Disagree": "Категорически не согласен",
         "Strongly Agree": "Полностью согласен",
-        "{FEATURE} meets my needs.{required/}": "Мои документы полностью соответствует моим задачам. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Поиск полностью соответствует моим задачам. {required/}",
         "Tell us why you gave these ratings.": "Расскажите, почему вы поставили такие оценки.",
         "Remind Me Later": "Напомнить позже",
         "Submit": "Отправить",
@@ -133,10 +133,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "pl": {
         "Feedback": "Opinię",
         "We'd Love Your Feedback!": "Chcielibyśmy poznać Twoją opinię!",
-        "{FEATURE} is easy to use.{required/}": "Moje dokumenty jest łatwy w użyciu. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Wyszukaj jest łatwy w użyciu. {required/}",
         "Strongly Disagree": "Zdecydowanie się nie zgadzam",
         "Strongly Agree": "Zdecydowanie się zgadzam",
-        "{FEATURE} meets my needs.{required/}": "Moje dokumenty spełnia moje potrzeby. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Wyszukaj spełnia moje potrzeby. {required/}",
         "Tell us why you gave these ratings.": "Powiedz nam, dlaczego wystawiłeś(-aś) takie oceny.",
         "Remind Me Later": "Przypomnij mi później",
         "Submit": "Prześlij",
@@ -148,10 +148,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "tr": {
         "Feedback": "Geri Bildiriminiz",
         "We'd Love Your Feedback!": "Geri Bildiriminiz Bizim İçin Çok Önemli!",
-        "{FEATURE} is easy to use.{required/}": "Belgelerim kullanımı kolaydır. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Ara kullanımı kolaydır. {required/}",
         "Strongly Disagree": "Kesinlikle Katılmıyorum",
         "Strongly Agree": "Kesinlikle Katılıyorum",
-        "{FEATURE} meets my needs.{required/}": "Belgelerim ihtiyaçlarımı karşılıyor. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Ara ihtiyaçlarımı karşılıyor. {required/}",
         "Tell us why you gave these ratings.": "Bize bu puanı verme nedeninizi belirtin.",
         "Remind Me Later": "Daha Sonra Hatırlat",
         "Submit": "Gönder",
@@ -163,10 +163,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "sv-SE": {
         "Feedback": "Feedback",
         "We'd Love Your Feedback!": "Vi skulle verkligen uppskatta din feedback!",
-        "{FEATURE} is easy to use.{required/}": "Mina dokument är lätt att använda. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Sök är lätt att använda. {required/}",
         "Strongly Disagree": "Håller absolut inte med",
         "Strongly Agree": "Håller helt med",
-        "{FEATURE} meets my needs.{required/}": "Mina dokument uppfyller mina behov. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Sök uppfyller mina behov. {required/}",
         "Tell us why you gave these ratings.": "Berätta varför du gav dessa betyg.",
         "Remind Me Later": "Påminn mig senare",
         "Submit": "Skicka",
@@ -178,10 +178,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "ja": {
         "Feedback": "フィードバック",
         "We'd Love Your Feedback!": "フィードバックをお待ちしています！",
-        "{FEATURE} is easy to use.{required/}": "個人ドキュメントは使いやすいです。{required/}",
+        "{FEATURE} is easy to use. {required/}": "検索は使いやすいです。{required/}",
         "Strongly Disagree": "強く同意しない",
         "Strongly Agree": "強く同意する",
-        "{FEATURE} meets my needs.{required/}": "個人ドキュメントは私のニーズを満たしている。{required/}",
+        "{FEATURE} meets my needs. {required/}": "検索は私のニーズを満たしている。{required/}",
         "Tell us why you gave these ratings.": "これらの評価を付けた理由を教えてください。",
         "Remind Me Later": "後で通知",
         "Submit": "送信",
@@ -193,10 +193,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "pt-BR": {
         "Feedback": "Feedback",
         "We'd Love Your Feedback!": "Adoraríamos receber seu feedback!",
-        "{FEATURE} is easy to use.{required/}": "Meus documentos é fácil de usar. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Pesquisar é fácil de usar. {required/}",
         "Strongly Disagree": "Discordo totalmente",
         "Strongly Agree": "Concordo totalmente",
-        "{FEATURE} meets my needs.{required/}": "Meus documentos atende às minhas necessidades. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Pesquisar atende às minhas necessidades. {required/}",
         "Tell us why you gave these ratings.": "Conte-nos por que você escolheu essas avaliações.",
         "Remind Me Later": "Lembre-me mais tarde",
         "Submit": "Enviar",
@@ -208,10 +208,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "it": {
         "Feedback": "Feedback",
         "We'd Love Your Feedback!": "Ci piacerebbe ricevere il tuo feedback!",
-        "{FEATURE} is easy to use.{required/}": "I miei documenti è facile da usare. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Cerca è facile da usare. {required/}",
         "Strongly Disagree": "Fortemente in disaccordo",
         "Strongly Agree": "Fortemente d'accordo",
-        "{FEATURE} meets my needs.{required/}": "I miei documenti soddisfa le mie esigenze. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Cerca soddisfa le mie esigenze. {required/}",
         "Tell us why you gave these ratings.": "Dicci perché hai dato queste valutazioni.",
         "Remind Me Later": "Ricordamelo più tardi",
         "Submit": "Invia",
@@ -223,10 +223,10 @@ translations_by_lang: Dict[str, Dict[str, str]] = {
     "de": {
         "Feedback": "Feedback",
         "We'd Love Your Feedback!": "Wir freuen uns über dein Feedback!",
-        "{FEATURE} is easy to use.{required/}": "Meine Dokumente ist einfach zu verwenden. {required/}",
+        "{FEATURE} is easy to use. {required/}": "Suchen ist einfach zu verwenden. {required/}",
         "Strongly Disagree": "Stimme überhaupt nicht zu",
         "Strongly Agree": "Stimme voll und ganz zu",
-        "{FEATURE} meets my needs.{required/}": "Meine Dokumente entspricht meinen Anforderungen. {required/}",
+        "{FEATURE} meets my needs. {required/}": "Suchen entspricht meinen Anforderungen. {required/}",
         "Tell us why you gave these ratings.": "Sagen Sie uns, warum Sie diese Bewertungen abgegeben haben.",
         "Remind Me Later": "Später erinnern",
         "Submit": "Senden",
